@@ -1,0 +1,122 @@
+{
+  "status": "STATIC_COMPATIBILITY_EVIDENCE",
+  "external_mapping_conflicts": [],
+  "all_40_stock_sound_assets_equal": true,
+  "hardware_audio_or_decoder_output_verified": false,
+  "function_windows": [
+    {
+      "name": "SysndConfig",
+      "m4_start": "0xa55926",
+      "rv_start": "0xb345a6",
+      "m4_instructions": 27,
+      "rv_instructions": 27,
+      "normalized_equal": true,
+      "mmio_addresses_preserved": [],
+      "differences": []
+    },
+    {
+      "name": "SysndPlay_and_local_helpers",
+      "m4_start": "0xa55998",
+      "rv_start": "0xb34618",
+      "m4_instructions": 584,
+      "rv_instructions": 584,
+      "normalized_equal": true,
+      "mmio_addresses_preserved": [],
+      "differences": []
+    },
+    {
+      "name": "SysndStop",
+      "m4_start": "0xa55f80",
+      "rv_start": "0xb34c00",
+      "m4_instructions": 59,
+      "rv_instructions": 59,
+      "normalized_equal": true,
+      "mmio_addresses_preserved": [],
+      "differences": []
+    },
+    {
+      "name": "SysndRegConfig",
+      "m4_start": "0xa563c2",
+      "rv_start": "0xb35042",
+      "m4_instructions": 75,
+      "rv_instructions": 75,
+      "normalized_equal": true,
+      "mmio_addresses_preserved": [
+        "0xf48a2c00",
+        "0xf48a3900",
+        "0xf48a3904"
+      ],
+      "differences": []
+    },
+    {
+      "name": "SysndFormatBit",
+      "m4_start": "0xa56482",
+      "rv_start": "0xb35102",
+      "m4_instructions": 57,
+      "rv_instructions": 57,
+      "normalized_equal": true,
+      "mmio_addresses_preserved": [
+        "0xf48a3400",
+        "0xf48a3904",
+        "0xf48a3908"
+      ],
+      "differences": []
+    },
+    {
+      "name": "SysndLpcmBits_and_clock_enable",
+      "m4_start": "0xa567da",
+      "rv_start": "0xb3545a",
+      "m4_instructions": 112,
+      "rv_instructions": 112,
+      "normalized_equal": true,
+      "mmio_addresses_preserved": [
+        "0xf48a0c00",
+        "0xf48a0c50",
+        "0xf48a1c1c",
+        "0xf48a1c34",
+        "0xf48a3400"
+      ],
+      "differences": []
+    },
+    {
+      "name": "SysndInitFormat",
+      "m4_start": "0xa56934",
+      "rv_start": "0xb355b4",
+      "m4_instructions": 130,
+      "rv_instructions": 130,
+      "normalized_equal": true,
+      "mmio_addresses_preserved": [],
+      "differences": []
+    },
+    {
+      "name": "SysndFormatDispatch",
+      "m4_start": "0xa56a90",
+      "rv_start": "0xb35710",
+      "m4_instructions": 78,
+      "rv_instructions": 78,
+      "normalized_equal": true,
+      "mmio_addresses_preserved": [],
+      "differences": []
+    },
+    {
+      "name": "SysndRateNumerator",
+      "m4_start": "0x4865d0",
+      "rv_start": "0x4f7700",
+      "m4_instructions": 70,
+      "rv_instructions": 70,
+      "normalized_equal": true,
+      "mmio_addresses_preserved": [],
+      "differences": []
+    },
+    {
+      "name": "SysndClockDenominator",
+      "m4_start": "0x486564",
+      "rv_start": "0x4f7694",
+      "m4_instructions": 41,
+      "rv_instructions": 41,
+      "normalized_equal": true,
+      "mmio_addresses_preserved": [],
+      "differences": []
+    }
+  ]
+}

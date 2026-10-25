@@ -1,0 +1,400 @@
+{
+  "hooks": [
+    {
+      "name": "csnd_original_card_ctor",
+      "rv_candidate": "0x1d3d1cc",
+      "displaced_first_instruction": "ff0307d1",
+      "native_pointer_refs": []
+    },
+    {
+      "name": "csnd_original_file_ctor",
+      "rv_candidate": "0x1d3ed6c",
+      "displaced_first_instruction": "ff0307d1",
+      "native_pointer_refs": []
+    },
+    {
+      "name": "csnd_original_confirm_ctor",
+      "rv_candidate": "0x1d3fe04",
+      "displaced_first_instruction": "ff0307d1",
+      "native_pointer_refs": []
+    },
+    {
+      "name": "csnd_original_wait_ctor",
+      "rv_candidate": "0x1d6537c",
+      "displaced_first_instruction": "ff0307d1",
+      "native_pointer_refs": []
+    },
+    {
+      "name": "csnd_original_card_dtor",
+      "rv_candidate": "0x23773c4",
+      "displaced_first_instruction": "fd7bbea9",
+      "native_pointer_refs": [
+        "0x58e58f8"
+      ]
+    },
+    {
+      "name": "csnd_original_file_dtor",
+      "rv_candidate": "0x2378434",
+      "displaced_first_instruction": "fd7bbea9",
+      "native_pointer_refs": [
+        "0x58e5960"
+      ]
+    },
+    {
+      "name": "csnd_original_confirm_dtor",
+      "rv_candidate": "0x2379038",
+      "displaced_first_instruction": "fd7bbea9",
+      "native_pointer_refs": [
+        "0x58e59c8"
+      ]
+    },
+    {
+      "name": "csnd_original_wait_dtor",
+      "rv_candidate": "0x237a174",
+      "displaced_first_instruction": "fd7bbea9",
+      "native_pointer_refs": [
+        "0x58e5a30"
+      ]
+    },
+    {
+      "name": "csnd_original_card_confirm",
+      "rv_candidate": "0x2377224",
+      "displaced_first_instruction": "fd7bbca9",
+      "native_pointer_refs": [
+        "0x57f5740"
+      ]
+    },
+    {
+      "name": "csnd_original_card_cancel",
+      "rv_candidate": "0x2377398",
+      "displaced_first_instruction": "fd7bbfa9",
+      "native_pointer_refs": [
+        "0x57f5750"
+      ]
+    },
+    {
+      "name": "csnd_original_file_init",
+      "rv_candidate": "0x2377fd4",
+      "displaced_first_instruction": "fd7bb7a9",
+      "native_pointer_refs": [
+        "0x58e5980"
+      ]
+    },
+    {
+      "name": "csnd_original_file_confirm",
+      "rv_candidate": "0x2378284",
+      "displaced_first_instruction": "fd7bb8a9",
+      "native_pointer_refs": [
+        "0x57f7ff0"
+      ]
+    },
+    {
+      "name": "csnd_original_file_cancel",
+      "rv_candidate": "0x2377834",
+      "displaced_first_instruction": "fd7bbca9",
+      "native_pointer_refs": [
+        "0x57f8000"
+      ]
+    },
+    {
+      "name": "csnd_original_confirm",
+      "rv_candidate": "0x2378ce4",
+      "displaced_first_instruction": "fd7bbaa9",
+      "native_pointer_refs": [
+        "0x57f80f0"
+      ]
+    },
+    {
+      "name": "csnd_original_confirm_cancel",
+      "rv_candidate": "0x2378e40",
+      "displaced_first_instruction": "fd7bbea9",
+      "native_pointer_refs": [
+        "0x57f8100"
+      ]
+    },
+    {
+      "name": "csnd_original_wait_tick",
+      "rv_candidate": "0x2379c14",
+      "displaced_first_instruction": "010443b9",
+      "native_pointer_refs": [
+        "0x57cf010"
+      ]
+    },
+    {
+      "name": "csnd_original_file_previous",
+      "rv_candidate": "0x2377d70",
+      "displaced_first_instruction": "fd7bb9a9",
+      "native_pointer_refs": [
+        "0x57f7fb0"
+      ]
+    },
+    {
+      "name": "csnd_original_file_next",
+      "rv_candidate": "0x2377e78",
+      "displaced_first_instruction": "fd7bb9a9",
+      "native_pointer_refs": [
+        "0x57f7fd0"
+      ]
+    },
+    {
+      "name": "csnd_original_row_event",
+      "rv_candidate": "0x2377b18",
+      "displaced_first_instruction": "fd7bb9a9",
+      "native_pointer_refs": [
+        "0x57f8010"
+      ]
+    },
+    {
+      "name": "csnd_original_file_snapshot",
+      "rv_candidate": "0x1ce778c",
+      "displaced_first_instruction": "01c03b91",
+      "native_pointer_refs": []
+    },
+    {
+      "name": "csnd_original_file_rec_notify",
+      "rv_candidate": "0x2377924",
+      "displaced_first_instruction": "fd7bbca9",
+      "native_pointer_refs": [
+        "0x57f8030"
+      ]
+    },
+    {
+      "name": "csnd_original_file_half_press",
+      "rv_candidate": "0x23779e4",
+      "displaced_first_instruction": "fd7bbca9",
+      "native_pointer_refs": [
+        "0x57f8070"
+      ]
+    },
+    {
+      "name": "csnd_original_file_half_release",
+      "rv_candidate": "0x2377a64",
+      "displaced_first_instruction": "fd7bbca9",
+      "native_pointer_refs": [
+        "0x57f8080"
+      ]
+    },
+    {
+      "name": "csnd_original_file_aux_property",
+      "rv_candidate": "0x2377bf8",
+      "displaced_first_instruction": "fd7bb9a9",
+      "native_pointer_refs": [
+        "0x57f8020"
+      ]
+    },
+    {
+      "name": "csnd_original_confirm_rec_notify",
+      "rv_candidate": "0x2378e78",
+      "displaced_first_instruction": "fd7bbca9",
+      "native_pointer_refs": [
+        "0x57f8110"
+      ]
+    },
+    {
+      "name": "csnd_original_confirm_half_press",
+      "rv_candidate": "0x2378f38",
+      "displaced_first_instruction": "fd7bbca9",
+      "native_pointer_refs": [
+        "0x57f8150"
+      ]
+    },
+    {
+      "name": "csnd_original_confirm_half_release",
+      "rv_candidate": "0x2378fb8",
+      "displaced_first_instruction": "fd7bbca9",
+      "native_pointer_refs": [
+        "0x57f8160"
+      ]
+    },
+    {
+      "name": "csnd_original_wait_rec_notify",
+      "rv_candidate": "0x23798d4",
+      "displaced_first_instruction": "fd7bbca9",
+      "native_pointer_refs": [
+        "0x57cf020"
+      ]
+    },
+    {
+      "name": "csnd_original_wait_half_press",
+      "rv_candidate": "0x2379994",
+      "displaced_first_instruction": "fd7bbca9",
+      "native_pointer_refs": [
+        "0x57cf060"
+      ]
+    },
+    {
+      "name": "csnd_original_wait_half_release",
+      "rv_candidate": "0x2379a14",
+      "displaced_first_instruction": "fd7bbca9",
+      "native_pointer_refs": [
+        "0x57cf070"
+      ]
+    },
+    {
+      "name": "csnd_original_wait_cancel_command",
+      "rv_candidate": "0x2379790",
+      "displaced_first_instruction": "fd7bbda9",
+      "native_pointer_refs": [
+        "0x57cf080"
+      ]
+    },
+    {
+      "name": "csnd_original_wait_command_result",
+      "rv_candidate": "0x2379814",
+      "displaced_first_instruction": "fd7bbba9",
+      "native_pointer_refs": [
+        "0x57cf090"
+      ]
+    },
+    {
+      "name": "csnd_original_wait_media_result",
+      "rv_candidate": "0x2379f3c",
+      "displaced_first_instruction": "fd7bb6a9",
+      "native_pointer_refs": [
+        "0x57cf0a0"
+      ]
+    },
+    {
+      "name": "csnd_original_wait_aux_status",
+      "rv_candidate": "0x2379a94",
+      "displaced_first_instruction": "fd7bbca9",
+      "native_pointer_refs": [
+        "0x57cf0b0"
+      ]
+    },
+    {
+      "name": "csnd_original_wait_finish",
+      "rv_candidate": "0x2379d0c",
+      "displaced_first_instruction": "21008052",
+      "native_pointer_refs": [
+        "0x57cf0f0"
+      ]
+    },
+    {
+      "name": "csnd_original_wait_stop_command",
+      "rv_candidate": "0x23796a8",
+      "displaced_first_instruction": "fd7bbda9",
+      "native_pointer_refs": [
+        "0x57cf0d0"
+      ]
+    },
+    {
+      "name": "csnd_original_wait_return_list",
+      "rv_candidate": "0x237966c",
+      "displaced_first_instruction": "fd7bbea9",
+      "native_pointer_refs": [
+        "0x57cf0e0"
+      ]
+    },
+    {
+      "name": "csnd_original_wait_return_request",
+      "rv_candidate": "0x23796e0",
+      "displaced_first_instruction": "fd7bbba9",
+      "native_pointer_refs": [
+        "0x57cf120"
+      ]
+    }
+  ],
+  "imports": [
+    {
+      "name": "rename",
+      "plt": "0x16d9420",
+      "got": "0x598c068"
+    },
+    {
+      "name": "memset",
+      "plt": "0x16d95f0",
+      "got": "0x598c150"
+    },
+    {
+      "name": "open",
+      "plt": "0x16d9740",
+      "got": "0x598c1f8"
+    },
+    {
+      "name": "memcpy",
+      "plt": "0x16d9770",
+      "got": "0x598c210"
+    },
+    {
+      "name": "read",
+      "plt": "0x16d9840",
+      "got": "0x598c278"
+    },
+    {
+      "name": "malloc",
+      "plt": "0x16d9890",
+      "got": "0x598c2a0"
+    },
+    {
+      "name": "Fsys_FindFirst",
+      "plt": "0x16d99d0",
+      "got": "0x598c340"
+    },
+    {
+      "name": "Fsys_Read",
+      "plt": "0x16da0b0",
+      "got": "0x598c6b0"
+    },
+    {
+      "name": "Fsys_Open",
+      "plt": "0x16da830",
+      "got": "0x598ca70"
+    },
+    {
+      "name": "write",
+      "plt": "0x16da9b0",
+      "got": "0x598cb30"
+    },
+    {
+      "name": "dlsym",
+      "plt": "0x16dac90",
+      "got": "0x598cca0"
+    },
+    {
+      "name": "remove",
+      "plt": "0x16daf00",
+      "got": "0x598cdd8"
+    },
+    {
+      "name": "__errno_location",
+      "plt": "0x16db580",
+      "got": "0x598d118"
+    },
+    {
+      "name": "close",
+      "plt": "0x16dba00",
+      "got": "0x598d358"
+    },
+    {
+      "name": "Fsys_FindNext",
+      "plt": "0x16dbb40",
+      "got": "0x598d3f8"
+    },
+    {
+      "name": "fsync",
+      "plt": "0x16dbbc0",
+      "got": "0x598d438"
+    },
+    {
+      "name": "free",
+      "plt": "0x16dbe20",
+      "got": "0x598d568"
+    },
+    {
+      "name": "Fsys_Close",
+      "plt": "0x16dc070",
+      "got": "0x598d690"
+    },
+    {
+      "name": "mkdir",
+      "plt": "0x16dc5b0",
+      "got": "0x598d930"
+    },
+    {
+      "name": "pthread_self",
+      "plt": "0x16dcc70",
+      "got": "0x598dc90"
+    }
+  ]
+}

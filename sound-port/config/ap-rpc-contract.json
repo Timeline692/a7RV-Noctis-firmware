@@ -1,0 +1,9 @@
+{
+  "status": "AP_PLAYBACK_OBJECTS_COMPILED_NATIVE_TRANSPORT_BOUND",
+  "rpc": {
+    "context_bytes": 116
+  },
+  "verification": {
+    "host_run_exit": 0
+  }
+}

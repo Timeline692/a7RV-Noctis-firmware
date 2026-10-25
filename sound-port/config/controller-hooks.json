@@ -1,0 +1,369 @@
+{
+  "hooks": [
+    {
+      "va": "0x1d3d1cc",
+      "expected_hex": "ff0307d1",
+      "symbol": "csnd_controller_ctor_card",
+      "original_trampoline": "csnd_original_card_ctor",
+      "native_pointer_refs": []
+    },
+    {
+      "va": "0x1d3ed6c",
+      "expected_hex": "ff0307d1",
+      "symbol": "csnd_controller_ctor_file",
+      "original_trampoline": "csnd_original_file_ctor",
+      "native_pointer_refs": []
+    },
+    {
+      "va": "0x1d3fe04",
+      "expected_hex": "ff0307d1",
+      "symbol": "csnd_controller_ctor_confirm",
+      "original_trampoline": "csnd_original_confirm_ctor",
+      "native_pointer_refs": []
+    },
+    {
+      "va": "0x1d6537c",
+      "expected_hex": "ff0307d1",
+      "symbol": "csnd_controller_ctor_wait",
+      "original_trampoline": "csnd_original_wait_ctor",
+      "native_pointer_refs": []
+    },
+    {
+      "va": "0x23773c4",
+      "expected_hex": "fd7bbea9",
+      "symbol": "csnd_controller_dtor_card",
+      "original_trampoline": "csnd_original_card_dtor",
+      "native_pointer_refs": [
+        "0x58e58f8"
+      ]
+    },
+    {
+      "va": "0x2378434",
+      "expected_hex": "fd7bbea9",
+      "symbol": "csnd_controller_dtor_file",
+      "original_trampoline": "csnd_original_file_dtor",
+      "native_pointer_refs": [
+        "0x58e5960"
+      ]
+    },
+    {
+      "va": "0x2379038",
+      "expected_hex": "fd7bbea9",
+      "symbol": "csnd_controller_dtor_confirm",
+      "original_trampoline": "csnd_original_confirm_dtor",
+      "native_pointer_refs": [
+        "0x58e59c8"
+      ]
+    },
+    {
+      "va": "0x237a174",
+      "expected_hex": "fd7bbea9",
+      "symbol": "csnd_controller_dtor_wait",
+      "original_trampoline": "csnd_original_wait_dtor",
+      "native_pointer_refs": [
+        "0x58e5a30"
+      ]
+    },
+    {
+      "va": "0x2377224",
+      "expected_hex": "fd7bbca9",
+      "symbol": "csnd_controller_card_confirm",
+      "original_trampoline": "csnd_original_card_confirm",
+      "native_pointer_refs": [
+        "0x57f5740"
+      ]
+    },
+    {
+      "va": "0x2377398",
+      "expected_hex": "fd7bbfa9",
+      "symbol": "csnd_controller_card_cancel",
+      "original_trampoline": "csnd_original_card_cancel",
+      "native_pointer_refs": [
+        "0x57f5750"
+      ]
+    },
+    {
+      "va": "0x2377fd4",
+      "expected_hex": "fd7bb7a9",
+      "symbol": "csnd_controller_file_init",
+      "original_trampoline": "csnd_original_file_init",
+      "native_pointer_refs": [
+        "0x58e5980"
+      ]
+    },
+    {
+      "va": "0x2378284",
+      "expected_hex": "fd7bb8a9",
+      "symbol": "csnd_controller_file_confirm",
+      "original_trampoline": "csnd_original_file_confirm",
+      "native_pointer_refs": [
+        "0x57f7ff0"
+      ]
+    },
+    {
+      "va": "0x2377834",
+      "expected_hex": "fd7bbca9",
+      "symbol": "csnd_controller_file_cancel",
+      "original_trampoline": "csnd_original_file_cancel",
+      "native_pointer_refs": [
+        "0x57f8000"
+      ]
+    },
+    {
+      "va": "0x2378ce4",
+      "expected_hex": "fd7bbaa9",
+      "symbol": "csnd_controller_confirm",
+      "original_trampoline": "csnd_original_confirm",
+      "native_pointer_refs": [
+        "0x57f80f0"
+      ]
+    },
+    {
+      "va": "0x2378e40",
+      "expected_hex": "fd7bbea9",
+      "symbol": "csnd_controller_confirm_cancel",
+      "original_trampoline": "csnd_original_confirm_cancel",
+      "native_pointer_refs": [
+        "0x57f8100"
+      ]
+    },
+    {
+      "va": "0x2379c14",
+      "expected_hex": "010443b9",
+      "symbol": "csnd_controller_wait_tick",
+      "original_trampoline": "csnd_original_wait_tick",
+      "native_pointer_refs": [
+        "0x57cf010"
+      ]
+    },
+    {
+      "va": "0x2377d70",
+      "expected_hex": "fd7bb9a9",
+      "symbol": "csnd_controller_file_previous",
+      "original_trampoline": "csnd_original_file_previous",
+      "native_pointer_refs": [
+        "0x57f7fb0"
+      ]
+    },
+    {
+      "va": "0x2377e78",
+      "expected_hex": "fd7bb9a9",
+      "symbol": "csnd_controller_file_next",
+      "original_trampoline": "csnd_original_file_next",
+      "native_pointer_refs": [
+        "0x57f7fd0"
+      ]
+    },
+    {
+      "va": "0x2377b18",
+      "expected_hex": "fd7bb9a9",
+      "symbol": "csnd_controller_row_event",
+      "original_trampoline": "csnd_original_row_event",
+      "native_pointer_refs": [
+        "0x57f8010"
+      ]
+    },
+    {
+      "va": "0x1ce7790",
+      "expected_hex": "01a03a91",
+      "symbol": "csnd_controller_snapshot_thunk",
+      "original_trampoline": "csnd_original_file_snapshot",
+      "native_pointer_refs": []
+    },
+    {
+      "va": "0x2377924",
+      "expected_hex": "fd7bbca9",
+      "symbol": "csnd_controller_file_rec_notify",
+      "original_trampoline": "csnd_original_file_rec_notify",
+      "native_pointer_refs": [
+        "0x57f8030"
+      ]
+    },
+    {
+      "va": "0x23779e4",
+      "expected_hex": "fd7bbca9",
+      "symbol": "csnd_controller_file_half_press",
+      "original_trampoline": "csnd_original_file_half_press",
+      "native_pointer_refs": [
+        "0x57f8070"
+      ]
+    },
+    {
+      "va": "0x2377a64",
+      "expected_hex": "fd7bbca9",
+      "symbol": "csnd_controller_file_half_release",
+      "original_trampoline": "csnd_original_file_half_release",
+      "native_pointer_refs": [
+        "0x57f8080"
+      ]
+    },
+    {
+      "va": "0x2377bf8",
+      "expected_hex": "fd7bb9a9",
+      "symbol": "csnd_controller_file_aux_property",
+      "original_trampoline": "csnd_original_file_aux_property",
+      "native_pointer_refs": [
+        "0x57f8020"
+      ]
+    },
+    {
+      "va": "0x2378e78",
+      "expected_hex": "fd7bbca9",
+      "symbol": "csnd_controller_confirm_rec_notify",
+      "original_trampoline": "csnd_original_confirm_rec_notify",
+      "native_pointer_refs": [
+        "0x57f8110"
+      ]
+    },
+    {
+      "va": "0x2378f38",
+      "expected_hex": "fd7bbca9",
+      "symbol": "csnd_controller_confirm_half_press",
+      "original_trampoline": "csnd_original_confirm_half_press",
+      "native_pointer_refs": [
+        "0x57f8150"
+      ]
+    },
+    {
+      "va": "0x2378fb8",
+      "expected_hex": "fd7bbca9",
+      "symbol": "csnd_controller_confirm_half_release",
+      "original_trampoline": "csnd_original_confirm_half_release",
+      "native_pointer_refs": [
+        "0x57f8160"
+      ]
+    },
+    {
+      "va": "0x23798d4",
+      "expected_hex": "fd7bbca9",
+      "symbol": "csnd_controller_wait_rec_notify",
+      "original_trampoline": "csnd_original_wait_rec_notify",
+      "native_pointer_refs": [
+        "0x57cf020"
+      ]
+    },
+    {
+      "va": "0x2379994",
+      "expected_hex": "fd7bbca9",
+      "symbol": "csnd_controller_wait_half_press",
+      "original_trampoline": "csnd_original_wait_half_press",
+      "native_pointer_refs": [
+        "0x57cf060"
+      ]
+    },
+    {
+      "va": "0x2379a14",
+      "expected_hex": "fd7bbca9",
+      "symbol": "csnd_controller_wait_half_release",
+      "original_trampoline": "csnd_original_wait_half_release",
+      "native_pointer_refs": [
+        "0x57cf070"
+      ]
+    },
+    {
+      "va": "0x2379790",
+      "expected_hex": "fd7bbda9",
+      "symbol": "csnd_controller_wait_cancel_command",
+      "original_trampoline": "csnd_original_wait_cancel_command",
+      "native_pointer_refs": [
+        "0x57cf080"
+      ]
+    },
+    {
+      "va": "0x2379814",
+      "expected_hex": "fd7bbba9",
+      "symbol": "csnd_controller_wait_command_result",
+      "original_trampoline": "csnd_original_wait_command_result",
+      "native_pointer_refs": [
+        "0x57cf090"
+      ]
+    },
+    {
+      "va": "0x2379f3c",
+      "expected_hex": "fd7bb6a9",
+      "symbol": "csnd_controller_wait_media_result",
+      "original_trampoline": "csnd_original_wait_media_result",
+      "native_pointer_refs": [
+        "0x57cf0a0"
+      ]
+    },
+    {
+      "va": "0x2379a94",
+      "expected_hex": "fd7bbca9",
+      "symbol": "csnd_controller_wait_aux_status",
+      "original_trampoline": "csnd_original_wait_aux_status",
+      "native_pointer_refs": [
+        "0x57cf0b0"
+      ]
+    },
+    {
+      "va": "0x2379d0c",
+      "expected_hex": "21008052",
+      "symbol": "csnd_controller_wait_finish",
+      "original_trampoline": "csnd_original_wait_finish",
+      "native_pointer_refs": [
+        "0x57cf0f0"
+      ]
+    },
+    {
+      "va": "0x23796a8",
+      "expected_hex": "fd7bbda9",
+      "symbol": "csnd_controller_wait_stop_command",
+      "original_trampoline": "csnd_original_wait_stop_command",
+      "native_pointer_refs": [
+        "0x57cf0d0"
+      ]
+    },
+    {
+      "va": "0x237966c",
+      "expected_hex": "fd7bbea9",
+      "symbol": "csnd_controller_wait_return_list",
+      "original_trampoline": "csnd_original_wait_return_list",
+      "native_pointer_refs": [
+        "0x57cf0e0"
+      ]
+    },
+    {
+      "va": "0x23796e0",
+      "expected_hex": "fd7bbba9",
+      "symbol": "csnd_controller_wait_return_request",
+      "original_trampoline": "csnd_original_wait_return_request",
+      "native_pointer_refs": [
+        "0x57cf120"
+      ]
+    },
+    {
+      "va": "0x21dd740",
+      "expected_hex": "fd7bbca9",
+      "symbol": "csnd_controller_menu_route",
+      "original_trampoline": "csnd_original_menu_route",
+      "native_pointer_refs": []
+    },
+    {
+      "va": "0x21df4c0",
+      "expected_hex": "fd7bb8a9",
+      "symbol": "csnd_controller_submenu_render",
+      "original_trampoline": "csnd_original_submenu_render",
+      "native_pointer_refs": []
+    },
+    {
+      "va": "0x1998890",
+      "expected_hex": "fd7bbca9",
+      "symbol": "csnd_ui_event",
+      "original_trampoline": "csnd_original_event",
+      "native_pointer_refs": []
+    },
+    {
+      "va": "0x23787a8",
+      "expected_hex": "157dd297",
+      "symbol": "csnd_rv_row_name_draw",
+      "link": true
+    },
+    {
+      "va": "0x23791b8",
+      "expected_hex": "4684cd97",
+      "symbol": "csnd_rv_confirmation_name_draw",
+      "link": true
+    }
+  ]
+}

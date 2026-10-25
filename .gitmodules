@@ -1,0 +1,9 @@
+[submodule "references/sony-a7m4-custom-firmware"]
+	path = references/sony-a7m4-custom-firmware
+	url = https://github.com/Erlla/sony-a7m4-custom-firmware.git
+[submodule "references/sony-a7iv-feature-research"]
+	path = references/sony-a7iv-feature-research
+	url = https://github.com/leogenot/sony-a7iv-feature-research.git
+[submodule "references/fwtool-a7iv"]
+	path = references/fwtool-a7iv
+	url = https://github.com/DavidBuchanan314/fwtool.py.git

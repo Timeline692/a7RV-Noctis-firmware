@@ -1,0 +1,10 @@
+numpy
+cryptography
+pyelftools
+capstone
+pyusb
+dissect.squashfs
+pycryptodomex
+pyyaml
+requests
+zstandard
